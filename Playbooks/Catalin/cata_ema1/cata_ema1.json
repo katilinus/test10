@@ -1,0 +1,207 @@
+{
+    "hasRestrictedEnvironments": false,
+    "id": 0,
+    "identifier": "992d0804-0c32-4ff6-a74c-72cc360203c0",
+    "version": "0",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "cata_ema1",
+    "creator": "4ef699ee-76df-410b-8a5d-67d28937cbfe",
+    "modifiedBy": "4ef699ee-76df-410b-8a5d-67d28937cbfe",
+    "priority": 2,
+    "description": "",
+    "environments": [
+        "Default Environment"
+    ],
+    "categoryName": "Catalin",
+    "categoryId": 64,
+    "originalPlaybookIdentifier": "76104d1a-2284-4e44-9388-64ab3d76b045",
+    "creationTimeUnixTimeInMs": 1731343912027,
+    "modificationTimeUnixTimeInMs": 1731595667029,
+    "trigger": {
+        "id": 0,
+        "identifier": "aaab11e9-bcc2-4b76-8e79-2aae253b8c8b",
+        "type": 10,
+        "logicalOperator": 0,
+        "conditions": [
+            {
+                "fieldName": "asd",
+                "value": "123",
+                "matchType": 0
+            }
+        ]
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "c0c2759b-3afe-4078-8c08-b46c4332b8c3",
+            "originalStepIdentifier": "65359dc2-5cf1-4597-a449-292b2f5e1f49",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "EmailV2_Send Email_1",
+            "name": "EmailV2_Send Email",
+            "integration": "EmailV2",
+            "description": "Send email message. Requires: SMTP configuration",
+            "actionProvider": "Scripts",
+            "actionName": "EmailV2_Send Email",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DynamicInjectionInstancePlaceholder",
+                    "value": "",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FallbackIntegrationInstance",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FetchInstanceByName",
+                    "value": "false",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "IntegrationInstance",
+                    "value": "2763484e-fb28-4c54-94b6-880cee3bfac7",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {},
+                    "InstanceDisplayName": "EmailV2_cata_gmail-do-not-use"
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptName",
+                    "value": "EmailV2_Send Email",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptParametersEntityFields",
+                    "value": "{\"Recipients\":\"catalin.profiri@gmail.com\",\"CC\":\"amishchenko+ajegan.r@google.com,amishchenko+s.vijayakuma@google.com,amishchenko+bhaskar_c@google.com,amishchenko+CSFC_Chennai_CSIRM@google.com,amishchenko+akshyalakshmi.anand@google.com,amishchenko+madhesan.govindaraj@google.com\",\"BCC\":\"\",\"Subject\":\"test1\",\"Content\":\"{\\\"Content\\\":\\\"Hi this is a test template \\\\n[Case.Name]\\\",\\\"ContentTemplateName\\\":\\\"Alessio test\\\",\\\"HtmlTemplateName\\\":\\\"\\\"}\",\"Return message id for the sent email\":false,\"Attachments Paths\":\"\"}",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": "All entities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": {
+                "originalWorkflowIdentifier": "76104d1a-2284-4e44-9388-64ab3d76b045",
+                "originalStepIdentifier": "65359dc2-5cf1-4597-a449-292b2f5e1f49",
+                "resultValue": "",
+                "resultJson": "",
+                "scopeEntitiesEnrichmentData": [],
+                "id": 0,
+                "creationTimeUnixTimeInMs": 0,
+                "modificationTimeUnixTimeInMs": 0,
+                "additionalProperties": {}
+            },
+            "parentStepContainerId": null,
+            "workflowIdentifier": "992d0804-0c32-4ff6-a74c-72cc360203c0",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1731595667029,
+            "modificationTimeUnixTimeInMs": 1731595667029,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}
