@@ -30,5 +30,6 @@
 |---------|-----------|-----------|---------------|
 |My Tools_Convert String to JSON_1|Convert a string representing JSON to JSON output. Entities are not used.|My Tools|Convert String to JSON|
 |Enrichment_Enrich Entity From JSON_1|The action extracts fields from a json file and adds them to the entity fields|Enrichment|Enrich Entity From JSON|
+|Siemplify_Case Comment_2|Add a comment to the case the current alert has been grouped to|Siemplify|Case Comment|
 |Siemplify_Case Comment_1|Add a comment to the case the current alert has been grouped to|Siemplify|Case Comment|
 
