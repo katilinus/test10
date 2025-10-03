@@ -15,14 +15,14 @@
 
 
 ### Playbook Trigger
-**Trigger Type:** All
+**Trigger Type:** Tag Name
 
 **Conditions Operator:** And
 
 ##### Conditions
 |Key|Operator|Value|
 |---|--------|-----|
-||Equals||
+||Equals|test|
 
 
 ### Involved Steps (Unordered)
