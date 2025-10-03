@@ -1,6 +1,15 @@
 # Playbooks
 |Name|Folder|Description|
 |----|------|-----------|
+|GuardDuty Alert Enrichment|Bharat|Enrich GuardDuty alerts with VirusTotal, retrying on failure, and block malicious IPs.|
+|HCL-Test|Bharat||
+|Intgtest_Bharat|Bharat||
+|MISP_TEST_Bharat|Bharat||
+|bharat_test|Bharat||
+|test closure|Bharat||
+|test-manual|Bharat||
+|test-manual1|Bharat||
+|test_man_3|Bharat||
 |BBVA - test playbook|Catalin||
 |Check Lists_v2|Catalin||
 |Copy of Check Lists_v1|Catalin||

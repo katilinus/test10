@@ -1,0 +1,473 @@
+{
+    "hasRestrictedEnvironments": false,
+    "id": 0,
+    "identifier": "18422c3d-24bc-49bc-bb29-541a70409411",
+    "version": "0",
+    "isEnabled": false,
+    "isDebugMode": false,
+    "name": "MISP_TEST_Bharat",
+    "creator": "86c6281c-049f-42ca-8982-3a89c8758e4d",
+    "modifiedBy": "86c6281c-049f-42ca-8982-3a89c8758e4d",
+    "priority": 2,
+    "description": "",
+    "environments": [
+        "Default Environment"
+    ],
+    "categoryName": "Bharat",
+    "categoryId": 32,
+    "originalPlaybookIdentifier": "c4c0b074-6fc9-4a2b-bdd4-e2ccf994701b",
+    "creationTimeUnixTimeInMs": 1741316027979,
+    "modificationTimeUnixTimeInMs": 1741739325126,
+    "trigger": {
+        "id": 0,
+        "identifier": "d6b26b8c-204a-4b1c-af1d-b0f74e801a63",
+        "type": 10,
+        "logicalOperator": 0,
+        "conditions": [
+            {
+                "fieldName": "1",
+                "value": "1",
+                "matchType": 0
+            }
+        ]
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "1d3efae3-321e-45de-8b0b-f82514d98598",
+            "originalStepIdentifier": "3496577d-81e4-4765-9e94-846cd4158523",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "MISP_Create Event_1",
+            "name": "MISP_Create Event",
+            "integration": "MISP",
+            "description": "Create a new event in MISP.",
+            "actionProvider": "Scripts",
+            "actionName": "MISP_Create Event",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DynamicInjectionInstancePlaceholder",
+                    "value": "",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FallbackIntegrationInstance",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FetchInstanceByName",
+                    "value": "false",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "IntegrationInstance",
+                    "value": "e7a8a6c3-1f2c-4f30-a802-4b688ac4f50e",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {},
+                    "InstanceDisplayName": "System Default Instance"
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptName",
+                    "value": "MISP_Create Event",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptParametersEntityFields",
+                    "value": "{\"Event Name\":\"test\",\"Distribution\":\"Community\",\"Threat Level\":\"High\",\"Analysis\":\"Initial\",\"Publish\":false,\"Comment\":\"\"}",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": "Entity Selection_1.SelectedEntities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "18422c3d-24bc-49bc-bb29-541a70409411",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1741739325126,
+            "modificationTimeUnixTimeInMs": 1741739325126,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "34d85140-12d9-4e3e-9f99-fbc2ccbadfb8",
+            "originalStepIdentifier": "faf155ba-cb4d-4cae-9cc1-290b62c00fb5",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Entity Selection_1",
+            "name": "Entity Selection",
+            "integration": "Flow",
+            "description": "Creates a group of entities that can be used in other actions. Use conditions to fine tune the group.",
+            "actionProvider": "Flow",
+            "actionName": "EntitySelection",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ConditionOperator",
+                    "value": "0",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "Conditions",
+                    "value": "[{\"FieldName\":\"Entity.Type\",\"Operator\":0,\"Type\":2,\"Value\":\"FILENAME\"},{\"FieldName\":\"Entity.Identifier\",\"Operator\":0,\"Type\":2,\"Value\":\"1GF503LA.DLL\"}]",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": "All entities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "18422c3d-24bc-49bc-bb29-541a70409411",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1741739325126,
+            "modificationTimeUnixTimeInMs": 1741739325126,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "4c144cb3-51af-469d-b903-e0e091ea98b8",
+            "originalStepIdentifier": "bc7fa59f-248a-4e77-b40a-2cce42f72044",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "MandiantThreatIntelligence_Enrich Entities_1",
+            "name": "MandiantThreatIntelligence_Enrich Entities",
+            "integration": "MandiantThreatIntelligence",
+            "description": "Enrich entities using information from Mandiant. Supported entities: Hostname, IP Address, URL, Domain, File Hash, Threat Actor, Vulnerability. Note: only MD5, SHA-1 and SHA-256 are supported.",
+            "actionProvider": "Scripts",
+            "actionName": "MandiantThreatIntelligence_Enrich Entities",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DynamicInjectionInstancePlaceholder",
+                    "value": "",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FallbackIntegrationInstance",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FetchInstanceByName",
+                    "value": "false",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "IntegrationInstance",
+                    "value": "b26a6ab9-f52f-4b57-a4f7-97c9ffdea04c",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {},
+                    "InstanceDisplayName": "System Default Instance"
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptName",
+                    "value": "MandiantThreatIntelligence_Enrich Entities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptParametersEntityFields",
+                    "value": "{\"Severity Score Threshold\":\"10\",\"Create Insight\":true,\"Only Suspicious Entity Insight\":false}",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": "Entity Selection_1.SelectedEntities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": {
+                "originalWorkflowIdentifier": "c4c0b074-6fc9-4a2b-bdd4-e2ccf994701b",
+                "originalStepIdentifier": "bc7fa59f-248a-4e77-b40a-2cce42f72044",
+                "resultValue": "",
+                "resultJson": "",
+                "scopeEntitiesEnrichmentData": [],
+                "id": 0,
+                "creationTimeUnixTimeInMs": 0,
+                "modificationTimeUnixTimeInMs": 0,
+                "additionalProperties": {}
+            },
+            "parentStepContainerId": null,
+            "workflowIdentifier": "18422c3d-24bc-49bc-bb29-541a70409411",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1741739325126,
+            "modificationTimeUnixTimeInMs": 1741739325126,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [
+        {
+            "condition": "",
+            "fromStep": "4c144cb3-51af-469d-b903-e0e091ea98b8",
+            "toStep": "1d3efae3-321e-45de-8b0b-f82514d98598",
+            "destinationActionStatus": 0
+        },
+        {
+            "condition": "",
+            "fromStep": "34d85140-12d9-4e3e-9f99-fbc2ccbadfb8",
+            "toStep": "4c144cb3-51af-469d-b903-e0e091ea98b8",
+            "destinationActionStatus": 0
+        }
+    ],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}
