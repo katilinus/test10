@@ -22,7 +22,7 @@
 ##### Conditions
 |Key|Operator|Value|
 |---|--------|-----|
-||Equals|test2|
+||Equals|test3|
 
 
 ### Involved Steps (Unordered)

@@ -17,7 +17,7 @@
     "categoryId": 32,
     "originalPlaybookIdentifier": "67a052b0-cb51-4783-a3cc-dc7fc7b1f7a4",
     "creationTimeUnixTimeInMs": 1757681271793,
-    "modificationTimeUnixTimeInMs": 1759483269862,
+    "modificationTimeUnixTimeInMs": 1759484980142,
     "trigger": {
         "id": 0,
         "identifier": "2b890319-371c-4072-a8c6-06dd0469eafb",
@@ -26,7 +26,7 @@
         "conditions": [
             {
                 "fieldName": "",
-                "value": "test2",
+                "value": "test3",
                 "matchType": 0
             }
         ]
@@ -199,8 +199,8 @@
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1759483269520,
-            "modificationTimeUnixTimeInMs": 1759483269862,
+            "creationTimeUnixTimeInMs": 1759484979861,
+            "modificationTimeUnixTimeInMs": 1759484980142,
             "additionalProperties": {}
         },
         {
@@ -370,8 +370,8 @@
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1759483269520,
-            "modificationTimeUnixTimeInMs": 1759483269862,
+            "creationTimeUnixTimeInMs": 1759484979861,
+            "modificationTimeUnixTimeInMs": 1759484980142,
             "additionalProperties": {}
         }
     ],
